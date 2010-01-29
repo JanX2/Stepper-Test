@@ -1,0 +1,62 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3DDFF0051113119E00BC8503 /* Stepper Test */;
+		activeTarget = 8D1107260486CEB800E47090 /* Stepper Test */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Stepper Test */,
+		);
+		codeSenseManager = 3DDFF014111311AA00BC8503 /* Code sense */;
+		executables = (
+			3DDFF0051113119E00BC8503 /* Stepper Test */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 286462366;
+			PBXWorkspaceStateSaveDate = 286462366;
+		};
+		sourceControlManager = 3DDFF013111311AA00BC8503 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3DDFF0051113119E00BC8503 /* Stepper Test */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Stepper Test";
+		sourceDirectories = (
+		);
+	};
+	3DDFF013111311AA00BC8503 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	3DDFF014111311AA00BC8503 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D1107260486CEB800E47090 /* Stepper Test */ = {
+		activeExec = 0;
+		executables = (
+			3DDFF0051113119E00BC8503 /* Stepper Test */,
+		);
+	};
+}
