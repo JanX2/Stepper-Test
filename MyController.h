@@ -12,9 +12,14 @@
 @interface MyController : NSObject {
 
 	int _editValue;
+	int _editValue2;
 	
 }
 
 @property (nonatomic, readwrite) int editValue;
+
+- (int)editValue2;
+- (void)setEditValue2:(int)value;
+
 
 @end
