@@ -1132,9 +1132,9 @@
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="369890847">
-								<int key="NSCellFlags">-1804468671</int>
-								<int key="NSCellFlags2">272630784</int>
-								<string key="NSContents"/>
+								<int key="NSCellFlags">-1803944383</int>
+								<int key="NSCellFlags2">71304192</int>
+								<string key="NSContents">1</string>
 								<object class="NSFont" key="NSSupport">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">1.300000e+01</double>
@@ -1728,22 +1728,6 @@
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
 						<string key="label">value: editValue</string>
-						<reference key="source" ref="20531954"/>
-						<reference key="destination" ref="1028705686"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="20531954"/>
-							<reference key="NSDestination" ref="1028705686"/>
-							<string key="NSLabel">value: editValue</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">editValue</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">458</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: editValue</string>
 						<reference key="source" ref="522966281"/>
 						<reference key="destination" ref="1028705686"/>
 						<object class="NSNibBindingConnector" key="connector">
@@ -1756,6 +1740,26 @@
 						</object>
 					</object>
 					<int key="connectionID">461</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: editValue</string>
+						<reference key="source" ref="20531954"/>
+						<reference key="destination" ref="1028705686"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="20531954"/>
+							<reference key="NSDestination" ref="1028705686"/>
+							<string key="NSLabel">value: editValue</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">editValue</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSContinuouslyUpdatesValue</string>
+								<boolean value="YES" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">462</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2893,6 +2897,7 @@
 					<string>452.IBPluginDependency</string>
 					<string>453.IBPluginDependency</string>
 					<string>454.IBPluginDependency</string>
+					<string>455.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>5.ImportedFromIB2</string>
 					<string>56.IBPluginDependency</string>
@@ -3123,6 +3128,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
@@ -3179,7 +3185,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">461</int>
+			<int key="maxID">462</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
