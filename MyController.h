@@ -18,8 +18,7 @@
 
 @property (nonatomic, readwrite) int editValue;
 
-- (int)editValue2;
-- (void)setEditValue2:(int)value;
+@property (nonatomic) int editValue2;
 
 
 @end

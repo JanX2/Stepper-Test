@@ -21,11 +21,11 @@
         return YES;
     }
     if ([*ioValue floatValue] <= 0.0) {
-		*ioValue = [NSNumber numberWithFloat:0.0];
+		*ioValue = @0.0f;
         return YES;
     }
 	else if ([*ioValue floatValue] > 100.0) {
-		*ioValue = [NSNumber numberWithFloat:100.0];
+		*ioValue = @100.0f;
         return YES;
     }
 	else {

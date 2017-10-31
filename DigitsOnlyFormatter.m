@@ -27,7 +27,7 @@
 			errorDescription:(NSString **)error 
 { 
 	NSCharacterSet *nonNumbers; 
-	nonNumbers = [[NSCharacterSet decimalDigitCharacterSet] invertedSet];
+	nonNumbers = [NSCharacterSet decimalDigitCharacterSet].invertedSet;
 
 	if ([partialString rangeOfCharacterFromSet:nonNumbers options:NSLiteralSearch].location != NSNotFound) { 
 		NSBeep();
