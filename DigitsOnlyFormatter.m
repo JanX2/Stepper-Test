@@ -18,7 +18,7 @@
 - (BOOL)getObjectValue:(id *)obj forString:(NSString *)string 
 	  errorDescription:(NSString **)error 
 { 
-    *obj = string; 
+    *obj = [NSString stringWithString:string];
     return YES; 
 }
 
